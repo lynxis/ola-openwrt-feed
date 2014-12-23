@@ -36,7 +36,7 @@ define Package/ola
   CATEGORY:=Open Lighting Architecture
   TITLE:=Open Lighting Architecture Daemon
   URL:=http://code.google.com/p/linux-lighting/
-  DEPENDS:=+libartnet +protobuf +libmicrohttpd +libusb-1.0 +libuuid +libstdcpp +libpthread +librt +zlib +libncurses
+  DEPENDS:=+libartnet +protobuf +libmicrohttpd +libusb-1.0 +libuuid +libstdcpp +libpthread +librt +zlib +libncurses +libftdi:libftdi +libusb:libusb
 endef
 
 define Package/ola/description
